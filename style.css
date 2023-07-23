@@ -35,7 +35,7 @@ header {
 nav {
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 10%;
     top: 0;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ nav {
 }
 
 .scrolled {
-    background-color: black;
+    background-color: #1E1E21;
   } 
 
 nav ul {
@@ -62,13 +62,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #FEFEFE;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 nav ul li a:hover {
-    color: gold;
+    color: #FFC803;
 }
 
 .comm-logo {
@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 .header-text h1 {
     font-size: 5em;
-    color: white;
+    color: #FEFEFE;
 }
 
 .header-text > * {
@@ -108,17 +108,17 @@ nav ul li a:hover {
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: #FEFEFE;
     height: 85px;
     width: 270px;
     border-radius: 10px;
-    background-color: gold;
+    background-color: #FFC803;
     transition: background-color 0.2s;
     border: none;
 }
 
 .header-btn:hover {
-    background-color: darkgoldenrod;
+    background-color: #af8a03;
     cursor: pointer;
 }
 
@@ -138,18 +138,18 @@ nav ul li a:hover {
 .cart, .laptop, .lock {
     height: 70%;
     width: auto;
-    color: white;
+    color: #FEFEFE;
 }
 
 .container p {
     line-height: 1.7em;
     font-size: 1em;
-    color: darkgrey;
+    color: #6B6D6E;
 }
 
 .services-desc {
     font-style: italic;
-    color: darkgrey;
+    color: #6B6D6E;
 }
 
 .services h2 {
@@ -164,7 +164,7 @@ nav ul li a:hover {
     height: 150px;
     width: 150px;
     padding: 25px;
-    color: white;
+    color: #FEFEFE;
 }
 
 .icons {
@@ -178,7 +178,7 @@ nav ul li a:hover {
     align-items: center;
     height: 150px;
     width: 150px;
-    background-color: gold;
+    background-color: #FFC803;
     border-radius: 50%;
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover {
 
 /* ------------PORTFOLIO------------- */
 .portfolio {
-    background-color: rgb(248, 244, 244);
+    background-color: #F5F7F9;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -214,7 +214,7 @@ nav ul li a:hover {
 .portfolio p {
     margin-top: 15px;
     font-size: 1em;
-    color: darkgrey;
+    color: #6B6D6E;
     font-style: italic;
 }
 
@@ -232,7 +232,7 @@ nav ul li a:hover {
 
 .cards-container {
     position: relative;
-    background-color: white;
+    background-color: #FEFEFE;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -243,13 +243,13 @@ nav ul li a:hover {
 
 .plus {
     position: absolute;
-    fill: white;
+    fill: #FEFEFE;
     padding: 120px;
     top: 0;
     left: 0;
     width: 100%;
     height: 80%;
-    background-color: rgba(255, 174, 0, 0.836);
+    background-color: hsla(47, 100%, 51%, 0.8);
     opacity: 0;
     transition: opacity 0.4s;
 }
@@ -261,7 +261,7 @@ nav ul li a:hover {
 
 .cards-container:hover::before {
     color: white;
-    background-color: orange;
+    background-color: #FFC803;
     opacity: 1;
 }
 
@@ -315,7 +315,7 @@ object-fit: cover;
     position: absolute;
     width: 2px;
     height: calc(100% - 50px);
-    background-color: lightgray;
+    background-color: #E4E8EC;
     right: 50%;
     z-index: -1;
 }
@@ -327,7 +327,7 @@ object-fit: cover;
 
 .about p {
     font-size: 1em;
-    color: darkgrey;
+    color: #6B6D6E;
     font-style: italic;
 }
 
@@ -335,7 +335,7 @@ object-fit: cover;
     object-fit: cover;
     width: 150px;
     height: 150px;
-    border: 5px solid lightgray;
+    border: 5px solid #E4E8EC;
     border-radius: 50%;
 }
 
@@ -378,7 +378,7 @@ object-fit: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: #F5F7F9;
 }
 
 .team h1 {
@@ -387,14 +387,14 @@ object-fit: cover;
 }
 
 .team p {
-    color: darkgrey;
+    color: #6B6D6E;
     font-size: 1em;
 }
 
 .team>p {
     margin-top: 15px;
     font-style: italic;
-    color: darkgrey;
+    color: #6B6D6E;
 }
 
 .coworkers {
@@ -418,7 +418,7 @@ object-fit: cover;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 5px solid darkgrey;
+    border: 5px solid #DBDBDB;
 }
 
 .team-cont h2 {
@@ -445,7 +445,7 @@ object-fit: cover;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #1E1E21;
 }
 
 .soc-cont a {
@@ -495,7 +495,7 @@ object-fit: cover;
     align-items: center;
     flex-direction: column;
     color: white;
-    background-color: rgb(41, 39, 39);
+    background-color: #1E1E21;
     height: 700px;
     background-image: url(assets/map-image.png);
     background-size: cover;
@@ -508,7 +508,7 @@ object-fit: cover;
 
 .contact p {
     margin-top: 15px;
-    color: darkgrey;
+    color: #6B6D6E;
     font-style: italic;
 }
 
@@ -558,13 +558,13 @@ object-fit: cover;
     text-transform: uppercase;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.603);
-    background-color: rgba(255, 166, 0, 0.651) ;
+    background-color: hsla(47, 100%, 51%, 0.6);
     transition: all 0.3s;
 }
 
 .submit-btn:hover {
     color:  white;
-    background-color: orange;
+    background-color: #FFC803;
     cursor: pointer;
 }
 
@@ -583,7 +583,7 @@ footer p, footer a {
 footer a {
     margin: 5px;
     text-decoration: none;
-    color: black;
+    color: #1E1E21;
     transition: color 0.3s;
 }
 
