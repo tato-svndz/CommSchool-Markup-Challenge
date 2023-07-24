@@ -618,7 +618,7 @@ footer a:hover {
 
 /* ----- Responsive Mobile -------- */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:480px) {
 
     body {
         width: 100vw;
@@ -716,11 +716,13 @@ footer a:hover {
     }
 
     .mobile img {
+        margin: 10px;
         height: 100px;
         width: 100px;
     }
 
     .part-of-story {
+        margin: 10px;
         height: 100px;
         width: 100px;
         font-size: 0.6em;
@@ -728,11 +730,12 @@ footer a:hover {
 
     .about-cont::before {
         content: "";
+        margin: 10px;
         position: absolute;
         width: 2px;
         height: calc(100% - 250px);
         background-color: #E4E8EC;
-        left: 13.5%;
+        left: 50px;
         z-index: -1;
     }
 
